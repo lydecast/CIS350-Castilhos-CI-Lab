@@ -19,4 +19,12 @@ def test_calc_multiply_fail():
 def test_calc_divide():
 	output = divide_numbers(10,2)
 	assert output == 5
+	
+def test_calc_pow():
+	output = power_of(2,3)
+	assert output == 8
+	
+def test_calc_sqrt():
+	output = square_root(4)
+	assert output == 2
 
